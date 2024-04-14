@@ -7,9 +7,9 @@ url = 'https://newsapi.org/v2/everything'
 
 #api request parameters set
 params = {
-    'q': 'skincare trends',  # Query for trending skincare topics
-    'sortBy': 'popularity',  # Sort by publication date
-    'language': 'en',  # Filter articles written in English
+    'q': 'insert_desired_keyword_search',  #query for desired_keyword_search
+    'sortBy': 'popularity',  #e.g. sorting by 'popularity'
+    'language': 'en',  #lang of the articles parced
     'apiKey': api_key
 }
 
