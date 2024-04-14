@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 #api key and url defined
-api_key = '026e53bb60454e38b619db9fa09e7996'
+api_key = 'set_api_key'
 url = 'https://newsapi.org/v2/everything'
 
 #api request parameters set
@@ -40,7 +40,7 @@ if data['status'] == 'ok':
 
     #dataframe created and saved as
     df_articles = pd.DataFrame(articles_data)
-    df_articles.to_csv('C:/Users/garim/OneDrive/Рабочий стол/project/skincare_trends_articles.csv',
+    df_articles.to_csv('set_desired_path',
                        index=False,
                        encoding='utf-8',
                        quotechar='"',
